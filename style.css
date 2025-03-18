@@ -13,24 +13,45 @@ html, body {
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-
-p {
-    font-size: 18px;
-}
-.main-container {
+.mobile-navbar {
     width: 100%;
-    height: 100%;
-    display: flex;
+    height: auto;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    z-index: 10;
 }
-
+p {
+    font-size: 18px !important;
+}
 .parent-container {
     width: 100%;
     height: 100%;
 }
 
-.text-container {
+.main-container {
     width: 100%;
     height: 100%;
+    display: flex;
+}
+.main-container p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+.hero-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,8 +166,8 @@ p {
     display: flex;
 }
 .txt-container {  
-    width: 50%;
-    height: 100%;
+    /* width: 50%;
+    height: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,8 +198,6 @@ p {
 
 .experience-container {
     width: 100%;
-    display: flex;
-    justify-content: center;
     padding: 3rem 0;
 }
 .experience-container h1 {
@@ -216,8 +235,7 @@ p {
     height: 100%;
     width: 100%;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    
 }
 .txt-container {
     width: 50%;
@@ -238,25 +256,19 @@ p {
 }
 
 .feature-parent {
-    height: 100%;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f4f4f4;
     padding-top: 2rem;
+}
+.feature-parent .fff:first-child {
+    width: 100%;
+    padding-bottom: 3rem;
+}
 
-}
-.fff {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* font-size: 3.2rem; */
-    /* font-weight: 900px; */
-    /* padding-top: 2rem; */
-    /* background: green; */
-}
 .fff h1 {
     width: 100%;
     display: flex;
@@ -264,7 +276,6 @@ p {
     align-items: center;
     font-size: 3.2rem;
     font-weight: 900px;
-    /* background: red; */
 }
 
 .text-div {
@@ -317,10 +328,13 @@ p {
 
 .learn-more h1 {
     width: 70%;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 3.2rem;
+    font-weight: 900px;
+
 
 }
 .learn-more div:nth-child(2) {
@@ -332,14 +346,6 @@ p {
 
 .learn-more img {
     width: 60%;
-}
-
-.learn-more h1 {
-    display: flex;
-    flex-direction: column;
-    font-size: 3.2rem;
-    font-weight: 900px;
-
 }
 
 .learn-more p {
@@ -367,7 +373,6 @@ p {
     font-size: 3.2rem;
     font-weight: 900px;
     padding-bottom: 1.5rem ;
-
 }
 .skyrocket button {
     border-radius: 5px;
@@ -379,6 +384,12 @@ p {
     font-weight: 600;
     cursor: pointer;
     margin-top: 1.5rem;
+}
+.skyrocket button span:nth-child(1) {
+    display: block;
+}
+.skyrocket button span:nth-child(2) {
+    display: none;
 }
 .skyrocket button:hover {
     background: #10706b;
@@ -405,12 +416,10 @@ p {
 }
 
 .muffins {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-size: 16px;
     color: grey;
-    padding: 1.5rem 0 2rem;
+    padding: 5rem 0 2.5rem;
 }
 .muffin-icon {
     font-size: 11px;
