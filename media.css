@@ -16,8 +16,8 @@
       /* color: blue; */
     }
     .main-container {
-      width: 100%;
-      height: 100%;
+      /* width: 100%;
+      height: 100%; */
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -25,7 +25,7 @@
     }
     .main-container p {
       display: block;
-      font-size: 15px;
+      font-size: 11px;
     }
     .image-container {
       padding-top: 1rem;
