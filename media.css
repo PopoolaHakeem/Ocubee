@@ -1,11 +1,260 @@
 
+@media only screen and (max-width: 768px) {
+
+
+    /* first section */
+      .parent-container {
+        text-align: center;
+    }
+        .main-container .ocube-navbar:first-child {
+        display: none;
+      }
+      div.mobile-navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 2rem;
+      }
+     .text-container h1 {
+        font-size: 2.3rem;
+      }
+      .main-container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .main-container p {
+        display: block;
+        font-size: 17px;
+      }
+      .image-container {
+        padding-top: 3rem;
+      }
+      .image-container img {
+        width: 100%;
+        height: 100%;
+      }
+
+      /* second section */
+      .lecture-container {
+        display: block;
+        padding-top: 3rem;
+      }
+      .lecture-images {
+        padding: 2rem 0;
+      }
+      .lecture-images img {
+        height: auto;
+        width: auto;
+        padding: 0.7rem;
+
+      }
+
+      /* third section */
+      .tutor-container {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .txt-container h1 {
+        font-size: 2.3rem;
+      }
+      .txt-container {
+        display: block;
+        width: 100%;
+        padding: 1rem 0;
+      }
+      .txt-container p {
+        display: block;
+        font-size: 17px;
+        padding: 1.9rem 0;
+
+      }
+      .tutor-image {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5rem 0 1rem;
+      }
+      .tutor-image img {
+        width: 100%;
+        height: 100%;
+      }
+      
+      /* fourth section */
+      .experience-container {
+        padding: 1.7rem;
+      }
+      .experience-container h1 {
+        padding-top: 1rem;
+        font-size: 2.3rem;
+      }
+      .vector-images {
+        display: grid;
+        grid-template-columns: 0fr 0fr;
+        left: 0rem;
+      }
+      .vector-images div {
+        width: 200px;
+        height: 180px;
+        margin-bottom: 1rem;
+      }
+
+      /* fifth section */
+      .information-container {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .txt-container {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        padding-top: 1.5rem;
+      }
+      .txt-container h1 {
+        font-size: 2.3rem;
+      }
+      .txt-container p {
+        font-size: 17px;
+      }
+      .info-img {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      .info-img img {
+        width: 100%;
+        height: 100%;
+      }
+
+      /* sixth section */
+      .feature-parent {
+        width: 100%;
+        height: auto;
+        padding-top: 4rem;
+    }
+      .feature-parent h1 {
+        font-size: 2.3rem;
+      }
+      .feature-parent p {
+        font-size: 17px;
+      }
+      .feature-parent .fff:first-child {
+        padding-bottom: 2rem;
+      }
+      .text-div {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .content div {
+        margin: 1rem 0;
+      }
+      .content-img {
+        height: 100%;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+      }
+
+      /* seventh section */
+      .learn-more {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+      }
+      .learn-more h1 {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-size: 2.3rem;
+      }
+      .learn-more div:nth-child(2) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+      }
+      .learn-more img {
+        width: 85%;
+        height: 100%;
+
+      }
+      .learn-more p {
+        display: block;
+        font-size: 17px;
+      }
+      .learn-more .txt-container {
+        height: auto;
+      }
+
+      /* eight section */
+      .skyrocket h1 {
+        font-size: 2.3rem;
+        display: block;
+      }
+      .skyrocket h3 {
+        font-size: 17px;
+      }
+      .skyrocket button span:nth-child(1) {
+        display: none;
+      }
+      .skyrocket button span:nth-child(2) {
+        display: block;
+        font-size: 17px;
+      }
+
+      /* ninth section */
+      .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3.5rem 0 2rem;
+      }
+      .footer p {
+        font-size: 16px;
+        padding: 2rem 0;
+      }
+      .links a {
+        margin: 0 15px;
+      }
+      
+      /* tenth section */
+    .muffins {
+        padding: 5rem 0 2.5rem;
+    }
+    .muffins p {
+        font-size: 16px;
+    
+    }
+    .muffins-icon {
+        font-size: 11px;
+        color: turquoise;
+      }
+
+
+}
+
 
 
 @media only screen and (max-width: 480px) {
 
     p {
-    font-size: 16px;
-
+        font-size: 15px;
     }
     .parent-container {
         text-align: center;
@@ -21,7 +270,8 @@
       /* color: blue; */
     }
     .main-container {
-     
+      width: 100%;
+      height: auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -29,7 +279,7 @@
     }
     .main-container p {
       display: block;
-      font-size: 11px;
+      font-size: 15px;
     }
     .image-container {
       padding-top: 1rem;
@@ -38,6 +288,7 @@
       width: 100%;
       height: 100%;
     }
+    /* second section */
     .lecture-container {
       display: block;
     }
@@ -49,6 +300,7 @@
       width: auto;
       padding: 1rem;
     }
+    /* third section */
     .tutor-container {
       width: auto;
       height: auto;
@@ -79,6 +331,7 @@
     .tutor-image img {
       width: 85%;
     }
+    /* fourth section */
     .experience-container {
       padding: 0;
     }
@@ -96,6 +349,7 @@
       height: 120px;
       margin-bottom: 1rem;
     }
+    /* fifth secton */
     .information-container {
       flex-direction: column;
       align-items: center;
@@ -118,6 +372,7 @@
       width: auto;
       height: 100%;
     }
+    /* sixth section */
     .feature-parent h1 {
       font-size: 2rem;
     }
@@ -143,6 +398,7 @@
       align-items: center;
       padding-bottom: 1rem;
     }
+    /* seventh section */
     .learn-more {
       flex-direction: column-reverse;
       justify-content: center;
@@ -169,10 +425,14 @@
     .learn-more p {
       display: block;
     }
+    /* eight section */
     .skyrocket h1 {
       font-size: 2rem;
       display: block;
     }
+    .skyrocket h3 {
+        font-size: 16px;
+      }
     .skyrocket button span:nth-child(1) {
       display: none;
       color: green;
@@ -180,6 +440,7 @@
     .skyrocket button span:nth-child(2) {
       display: block;
     }
+    /* ninth section */
     .footer {
       flex-direction: column;
       justify-content: center;
@@ -192,53 +453,25 @@
     .links a {
       margin: 0 14px;
     }
+
+    /* tenth section */
     .muffins {
       padding: 4rem 0 5rem;
     }
+
+    .muffins p {
+        font-size: 15px;
+    
+    }
+    .muffins-icon {
+        font-size: 11px;
+        color: turquoise;
+      }
+
+   
   }
   
  
 
 
-  /* @media only screen and (max-width: 768px) {
-
-    .parent-container {
-        text-align: center;
-    }
-    .main-container .ocube-navbar:first-child {
-        display: none;
-      }
-      div.mobile-navbar {
-        display: flex;
-      }
-    .text-container h1 {
-        font-size: 2.3rem;
-        color: red;
-      }
-      .main-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      .main-container p {
-        display: block;
-        font-size: 17px;
-      }
-      .image-container {
-        padding-top: 0rem;
-      }
-      .image-container img {
-        width: 100%;
-        height: 100%;
-      }
-
-
-
-
-
-
-
-
-
-} */
+ 

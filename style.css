@@ -23,7 +23,7 @@ html, body {
     z-index: 10;
 }
 p {
-    /* font-size: 18px; */
+    font-size: 18px;
 }
 .parent-container {
     width: 100%;
@@ -354,6 +354,7 @@ p {
     flex-direction: column;
     padding: 1rem 0;
     font-size: 18px;
+
 }
 
 .skyrocket {
@@ -419,11 +420,14 @@ p {
 
 .muffins {
     text-align: center;
-    font-size: 16px;
     color: grey;
     padding: 5rem 0 2.5rem;
 }
-.muffin-icon {
+.muffins p {
+    font-size: 16px;
+
+}
+.muffins-icon {
     font-size: 11px;
     color: turquoise;
   }
