@@ -1,20 +1,68 @@
 
 @media only screen and (max-width: 834px) {
-  div.mobile-navbar {
+
+    /* first section */
+.parent-container {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    }
+div.mobile-navbar {
     display: none;
-  }
-  .ocube-navbar {
+}
+.ocube-navbar {
     width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-  }
-
-  .nav-links a {
+}
+.nav-links a {
     width: 100%;
     padding: 0 0.3rem;
-  }
+}
+.hero-container {
+    width: 100%;
+}
+.main-container {
+    width: auto;
+    height: auto;
+}
+.main-container p {
+    display: block;
+    font-size: 18px;
+}
+.image-container {
+    align-items: center;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+.text-container {
+    width: 100%;
+    display: block;
+}
+.text-container h1 {
+    font-size: 2.5rem;
+    display: block;
+}
 
+  /* second section */
+.lecture-container {
+    display: flex;
+    padding-top: 3rem;
+}
+.lecture-images {
+    padding: 2rem 0;
+}
+.lecture-images img {
+    height: auto;
+    width: auto;
+    padding: 0.7rem;
+}
+.lecture-container p {
+    font-size: 18px;
+}
 
 
 
@@ -77,6 +125,10 @@
     width: auto;
     padding: 0.7rem;
   }
+  .lecture-container p {
+    font-size: 17x;
+    padding-bottom: 0.5rem ;
+}
 
   /* third section */
   .tutor-container {
