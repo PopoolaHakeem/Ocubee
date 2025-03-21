@@ -996,10 +996,6 @@ div.mobile-navbar {
     padding: 5rem 0 2.5rem;
   }
   .muffins p {
-    /* text-align: unset; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     font-size: 16px;
   }
   .muffins-icon {
@@ -1229,7 +1225,7 @@ div.mobile-navbar {
     padding: 3.5rem 0 2rem;
   }
   .footer p {
-    font-size: 14px;
+    font-size: 15px;
     padding: 1rem 0;
   }
   .links a {
@@ -1241,7 +1237,6 @@ div.mobile-navbar {
     padding: 4rem 0 5rem;
   }
   .muffins p {
-    display: flex;
     font-size: 15px;
   }
   .muffins-icon {
