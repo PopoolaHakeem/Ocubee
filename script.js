@@ -1,8 +1,7 @@
 
 var menuicon = document.querySelector("#menu-icon");
-var mobilenav = document.querySelector(".mobile-nav");
 var cancelicon = document.querySelector("#cancel-icon")
-
+var mobilenav = document.querySelector(".mobile-nav");
 
 menuicon.onclick = function() {
     menuicon.style.display = 'none'
