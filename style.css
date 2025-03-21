@@ -13,6 +13,43 @@ html, body {
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+#menu-icon {
+    cursor: pointer;
+}
+#cancel-icon {
+    display: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+.mobile-nav {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    top: 54px;
+    display: none;
+    background-color: #f4f4f4;
+    border-top: 2px solid #ddd4d4;
+    text-align: start;
+    z-index: 10;
+  }
+  .mobile-nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  .mobile-nav a:hover {
+    background-color: #148E88;
+    padding: 1rem;
+  }
+  .mobile-nav ul li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+  .mobile-nav ul {
+    margin-left: 1.5rem;
+    padding-top: 0.5rem;
+  }
+
+
 .mobile-navbar {
     width: 100%;
     height: auto;
@@ -139,6 +176,7 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
+/* lecture section */
 .lecture-container {
     width: 100%;
     display: flex;
@@ -151,7 +189,6 @@ p {
     font-size: 18px;
     padding-bottom: 0.5rem ;
 }
-
 .lecture-images {
     width: 100%;
     display: flex;
@@ -159,6 +196,8 @@ p {
     align-items: center;
     padding: 1.5rem 6.5rem;
 }
+
+/* tutor section */
 .tutor-container {
     width: 100%;
     height: 100%;
@@ -196,6 +235,7 @@ p {
     width: 60%;
 }
 
+/* experience section */
 .experience-container {
     width: 100%;
     padding: 3rem 0;
@@ -231,30 +271,28 @@ p {
     font-size: 18px;
 }
 
+/* information section */
 .information-container {
     height: 100%;
     width: 100%;
     display: flex;
-    
 }
 .txt-container {
     width: 50%;
     height: 100%;
-
 }
 
 .info-img {
-
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .info-img img {
     width: 60%;
 }
 
+/* feature section */
 .feature-parent {
     height: auto;
     width: 100%;
@@ -262,13 +300,12 @@ p {
     flex-direction: column;
     align-items: center;
     background-color: #f4f4f4;
-    padding-top: 2rem;
+    /* padding: 2rem 4rem; */
 }
 .feature-parent .fff:first-child {
     width: 100%;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
-
 .fff h1 {
     width: 100%;
     display: flex;
@@ -277,13 +314,11 @@ p {
     font-size: 3.2rem;
     font-weight: 900px;
 }
-
 .text-div {
     width: 100%;
     height: 100%;
     display: flex;
 }
-
 .content {
     height: 100%;
     width: 100%;
@@ -299,7 +334,6 @@ p {
     padding: 1rem 0;
     font-size: 18px;
 }
-    
 .content div {
     margin: 2rem 0;
 }
@@ -309,14 +343,25 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
+/* learn-more */
 .learn-more {
     height: 100%;
     width: 100%;
     display: flex;
+    padding: 2rem 4rem;
 }
-
+.learn-more h1 {
+    width: 70%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2rem;
+    font-weight: 900px;  
+}
 .learn-more div:first-child {
     /* height: 100%; */
     /* width: 50%; */
@@ -325,17 +370,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.learn-more h1 {
-    width: 70%;
-    /* display: flex; */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 3.2rem;
-    font-weight: 900px;
-
 
 }
 .learn-more div:nth-child(2) {
@@ -344,11 +378,9 @@ p {
     justify-content: center;
     align-items: center;
 }
-
 .learn-more img {
     width: 60%;
 }
-
 .learn-more p {
     display: flex;
     flex-direction: column;
@@ -357,6 +389,7 @@ p {
 
 }
 
+/* skyrocket section */
 .skyrocket {
     width: 100%;
     display: flex;
@@ -400,14 +433,13 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
+/* footer sction */
 .footer {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 5rem 0 3rem;
-
-    /* background: red; */
 }
 .links {
     display: flex;
@@ -415,7 +447,7 @@ p {
     align-items: center;
 }
 .links a {
-    margin: 0 5px;
+    margin-left: 15px;
 }
 
 .muffins {
