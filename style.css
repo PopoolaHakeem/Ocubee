@@ -42,7 +42,7 @@ html, body {
 .mobile-nav-list a:hover {
     background-color: #148E88;
     padding: 1rem;
-    transition: all 0.3s ease-in-out;
+    /* transition: all 0.3s ease-in-out; */
 }
 .mobile-nav-list ul li {
     padding: 0.5rem 0;
