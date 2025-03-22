@@ -6,6 +6,7 @@
     overflow-x: hidden;
     padding: 0;
     margin: 0;
+    scrollbar-width: none;
 }
 html, body {
     width: 100%;
@@ -15,13 +16,14 @@ html, body {
 }
 #menu-icon {
     cursor: pointer;
+    padding: 0.5rem 1rem;
 }
 #cancel-icon {
     display: none;
     cursor: pointer;
     padding: 0.5rem 1rem;
 }
-.mobile-nav {
+.mobile-nav-list {
     width: 100%;
     height: 200px;
     position: fixed;
@@ -32,25 +34,23 @@ html, body {
     text-align: start;
     z-index: 10;
 }
-.mobile-nav a {
+.mobile-nav-list a {
     color: #333;
     text-decoration: none;
 }
-.mobile-nav a:hover {
+.mobile-nav-list a:hover {
     background-color: #148E88;
     padding: 1rem;
-    /* transition:  0.3s ease-in-out; */
+    transition: all 0.3s ease-in-out;
 }
-.mobile-nav ul li {
+.mobile-nav-list ul li {
     padding: 0.5rem 0;
     font-size: 1rem;
 }
-.mobile-nav ul {
+.mobile-nav-list ul {
     margin-left: 1.5rem;
     padding-top: 0.5rem;
 }
-
-
 .mobile-navbar {
     width: 100%;
     height: auto;
@@ -58,7 +58,9 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
+    position: fixed; 
     z-index: 10;
+    background: #fff;
 }
 p {
     font-size: 18px;
