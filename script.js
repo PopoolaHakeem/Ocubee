@@ -15,6 +15,6 @@ cancelicon.onclick = function() {
     mobilenav.style.display = 'none'
     menuicon.style.display = 'block'
 }
-mobilenavbar.scroll = function() {
-    mobilenavbar.style.backgroundColor ='red'
-}
+// mobilenavbar.scroll = function() {
+//     mobilenavbar.style.backgroundColor ='red'
+// }
