@@ -2,7 +2,7 @@
 var menuicon = document.querySelector("#menu-icon");
 var cancelicon = document.querySelector("#cancel-icon")
 var mobilenav = document.querySelector(".mobile-nav-list");
-var mobilenavbar = document.querySelector(".mobile-navbar")
+var mobilenavbar = document.querySelector(".mobile-navbar");
 
 menuicon.onclick = function() {
     menuicon.style.display = 'none'
@@ -14,4 +14,7 @@ cancelicon.onclick = function() {
     cancelicon.style.display = 'none'
     mobilenav.style.display = 'none'
     menuicon.style.display = 'block'
+}
+mobilenavbar.scroll = function() {
+    mobilenavbar.style.backgroundColor ='red'
 }
