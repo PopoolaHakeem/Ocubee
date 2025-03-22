@@ -61,7 +61,7 @@ html, body {
     padding: 0.5rem;
     position: fixed; 
     z-index: 10;
-    background: red;
+    background: #f4f4f4;
 }
 p {
     font-size: 18px;
