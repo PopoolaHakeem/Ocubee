@@ -15,7 +15,6 @@ var navbarBg = document.querySelector(".ocube-navbar");
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 1) {
-        // navbar.style.
         navbarBg.style.backgroundColor = 'white'
         navbarBg.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.3)'
         // alert('hi')
